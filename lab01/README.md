@@ -2,8 +2,7 @@
 * Mylena Roberta dos Santos
 
 ## Tarefa 1 sobre APIs de acesso
-> <notebook/lab01-api.ipynb>
+ [Notebook](notebook/lab01-api.ipynb)
 
 ## Tarefa 2 sobre Engenharia Reversa
-> ![](images/ModeloConceitual_UBS.png)
-
+ ![Modelo Conceitual](images/ModeloConceitual_UBS.png)
