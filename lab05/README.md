@@ -8,6 +8,7 @@
 Escreva em Cypher uma consulta que retorne os marcadores da categoria `Serviços`, sem considerar as categorias subordinadas.
 
 ### Resolução
+
 ~~~cypher
 MATCH (m:Marcador)-[:Pertence]->(c:Categoria)
 WHERE c.id = "Serviços"
@@ -19,10 +20,12 @@ RETURN m, c
 Escreva em Cypher uma consulta que retorne os marcadores da categoria `Serviços`, considerando as categorias subordinadas.
 
 ### Resolução
+
 ~~~cypher
 MATCH (m:Marcador)-[:Pertence]->(c:Categoria)
-MATCH (cat1:Categoria)-[:Superior]->(sup1:Categoria)
-MATCH (cat2:Categoria)-[:Superior]->(sup2:Categoria)
-WHERE (c.id = cat2.id OR c.id = cat1.id OR c.id = sup1.id) AND sup1.id = "Serviços" AND (sup2.id = cat1.id OR sup2.id = sup1.id)
-RETURN m, c, cat1, sup1, cat2, sup2
+MATCH (sub:Categoria)-[:Superior]->(sup:Categoria {id: "Serviços"})
+MATCH (subsub:Categoria)-[:Superior]->(subsup:Categoria)
+WHERE (subsup.id = sup.id OR subsup.id = sub.id) AND
+      (c.id = sup.id OR c.id = sub.id OR c.id = subsub.id)
+RETURN m, c, sup, sub, subsub
 ~~~

@@ -1,10 +1,10 @@
-# Lab01
+# lab01
 *.drawio
 
-# Lab04
+# lab04
 marcadores-taxonomia-er.png
 marcadores-taxonomia-uml.png
 
-# Lab05
+# lab05
 cypher-basics.md
 tabelas-neo4j.txt
