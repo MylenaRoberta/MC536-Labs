@@ -1,24 +1,14 @@
-# Modelo para Apresentação do Lab06 - Artigo de Dataset Público
-
-Estrutura de pastas:
-
-~~~
-├── README.md  <- arquivo apresentando a tarefa
-│
-└── images     <- arquivos de imagem usados na tarefa (se houver)
-~~~
-
 # Aluno
-* `RA`: `<nome completo>`
+* 222687: Mylena Roberta dos Santos
 
-# Análise do Artigo `<título do artigo>`
+# Análise do Artigo PPORTAL: Public Domain Portuguese-language Literature Dataset
 
 | campo | valor |
-|------------|----------------------------------------|
-| referência | `<referência bibliográfica do artigo>` |
-| link       | `<url para acesso à página do artigo ou PDF do mesmo>` |
-| dataset | `<link para o repositório público onde está hospedado o dataset>` |
-| formato | `<formato em que os arquivos são disponibilizados>` |
+|-------|-------|
+| referência | Silva, M. O., Scofield, C., & Moro, M. M. (2021). PPORTAL: Public Domain Portuguese-language Literature Dataset. Dataset Showcase Workshop, SBBD 2021. https://sites.google.com/view/sbbd-dsw/artigos?authuser=0 |
+| link       | https://drive.google.com/file/d/10GCh7djQhdyJbn0Cp3bcxJnPcvzautXJ/view |
+| dataset    | https://zenodo.org/record/5178063#.YU8K9n1v_IU |
+| formato    | Dump SQL e CSV |
 
 ## Resumo
 
@@ -30,4 +20,5 @@ Estrutura de pastas:
 
 ## Trabalhos relacionados
 
-> Relacione outras iniciativas relacionadas com a do artigo que tenham sido mencionadas no mesmo.
+Domínio Público (https://www.dominiopublico.gov.br/), Projecto Adamastor (https://projectoadamastor.org/)
+e BLPL (https://www.literaturabrasileira.ufsc.br).
