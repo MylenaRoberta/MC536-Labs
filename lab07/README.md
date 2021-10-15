@@ -2,14 +2,20 @@
 * 222687: Mylena Roberta dos Santos
 
 ## Modelo Lógico do Banco de Dados de Grafos
-> Utilize este [modelo de base](https://docs.google.com/presentation/d/10RN7bDKUka_Ro2_41WyEE76Wxm4AioiJOrsh6BRY3Kk/edit?usp=sharing) para construir o seu.
-> Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image`):
->
-> ![Diagrama de Orquestração](images/modelo-logico-grafos.png)
+![Modelo Lógico de Grafo](images/ModeloLógicoGrafo.png)
 
 ## Perguntas de Pesquisa/Análise
-
-> Liste aqui as três perguntas de pesquisa/análise
-> * Pergunta 1
-> * Pergunta 2
-> * Pergunta 3
+* Qual filme conta com elenco mais premiado com Oscars?
+* Qual ator/atriz participou dos melhores filmes de acordo com a crítica?
+* Qual diretor/diretora fez os melhores filmes de acordo com a crítica?
+* Qual é o gênero de filmes mais rentável?
+* Qual é o gênero de filmes melhor avaliado?
+* Em que década foram lançados os filmes mais rentáveis?
+* Em que década foram lançados os filmes melhores avaliados?
+* Qual é o orçamento médio dos filmes mais rentáveis? 
+* Qual é o orçamento médio dos filmes melhores avaliados?
+* Qual é a sequência de filmes mais rentável?
+* Qual é a sequência de filmes melhor avaliada?
+* Qual é o universo cinematográfico mais rentável?
+* Qual é o universo cinematográfico melhor avaliado?
+* Os filmes mais rentáveis também são os mais bem avaliados pela crítica?
