@@ -4,10 +4,10 @@
 ## Exemplo de Grafo de Conhecimento - para publicar ou enriquecer
 
 ![Grafo de Conhecimento - Modelo](images/GrafoConhecimento.png)
-<br> *Modelo lógico do Grafo de Conhecimento* 
+<br> *Modelo lógico do Grafo de Conhecimento.*
 
 ![Grafo de Conhecimento - Exemplo](images/GrafoConhecimentoExemplo.png)
-<br> *Exemplo do Grafo de Conhecimento*
+<br> *Exemplo do Grafo de Conhecimento.*
 
 ## Perguntas de Pesquisa ou Queries
 
